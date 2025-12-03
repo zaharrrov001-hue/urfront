@@ -125,7 +125,7 @@ export function ServicesList() {
               className="h-full border-slate-200 bg-white shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden rounded-sm"
             >
               <CardHeader className="pb-4">
-                <div className="mb-5 w-16 h-16 p-3.5 rounded-sm bg-[#1a2a4a] group-hover:bg-[#d4a853] transition-colors duration-300 text-[#d4a853] group-hover:text-[#1a2a4a]">
+                <div className="mb-4 w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 p-2 sm:p-2.5 md:p-3 lg:p-3.5 rounded-sm bg-[#1a2a4a] group-hover:bg-[#d4a853] transition-colors duration-300 text-[#d4a853] group-hover:text-[#1a2a4a]">
                   {service.icon}
                 </div>
                 <CardTitle className="text-[#1a2a4a]">{service.title}</CardTitle>

@@ -84,7 +84,7 @@ export function Steps() {
                   </div>
 
                   {/* Icon */}
-                  <div className="mx-auto mb-5 mt-5 w-20 h-20 p-4 rounded-sm bg-[#1a2a4a] text-[#d4a853] group-hover:bg-[#d4a853] group-hover:text-[#1a2a4a] transition-colors duration-300">
+                  <div className="mx-auto mb-4 mt-4 w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 p-2.5 sm:p-3 md:p-3.5 lg:p-4 rounded-sm bg-[#1a2a4a] text-[#d4a853] group-hover:bg-[#d4a853] group-hover:text-[#1a2a4a] transition-colors duration-300">
                     {step.icon}
                   </div>
 

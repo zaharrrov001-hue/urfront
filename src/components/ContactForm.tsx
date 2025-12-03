@@ -85,10 +85,10 @@ export function ContactForm() {
                     return (
                       <div
                         key={index}
-                        className="flex items-center gap-4 p-4 bg-white rounded-sm border border-slate-200"
+                        className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white rounded-sm border border-slate-200"
                       >
-                        <div className="flex-shrink-0 h-10 w-10 rounded-sm bg-[#1a2a4a] flex items-center justify-center">
-                          <Icon className="h-5 w-5 text-[#d4a853]" />
+                        <div className="flex-shrink-0 h-8 w-8 sm:h-10 sm:w-10 rounded-sm bg-[#1a2a4a] flex items-center justify-center">
+                          <Icon className="h-4 w-4 sm:h-5 sm:w-5 text-[#d4a853]" />
                         </div>
                         <span className="text-sm font-medium text-slate-700">
                           {benefit.text}

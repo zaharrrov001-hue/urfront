@@ -11,9 +11,9 @@ export function Logo({ variant = "light" }: LogoProps) {
   const subTextColor = variant === "dark" ? "text-slate-400" : "text-slate-500";
 
   return (
-    <Link href="/" className="flex items-center gap-3">
-      <div className={`w-11 h-11 ${bgColor} rounded-sm flex items-center justify-center ${iconColor}`}>
-        <svg viewBox="0 0 40 40" className="w-7 h-7" fill="none">
+    <Link href="/" className="flex items-center gap-2 sm:gap-3">
+      <div className={`w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 ${bgColor} rounded-sm flex items-center justify-center ${iconColor}`}>
+        <svg viewBox="0 0 40 40" className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" fill="none">
           {/* Scales of Justice - более детальная версия */}
           <path 
             d="M20 4V8M20 8L8 14M20 8L32 14" 
@@ -48,8 +48,8 @@ export function Logo({ variant = "light" }: LogoProps) {
         </svg>
       </div>
       <div className="flex flex-col">
-        <span className={`text-xl font-bold ${textColor} tracking-tight`}>ЮрФронт</span>
-        <span className={`text-xs ${subTextColor}`}>Юридическая помощь</span>
+        <span className={`text-base sm:text-lg md:text-xl font-bold ${textColor} tracking-tight`}>ЮрФронт</span>
+        <span className={`text-[10px] sm:text-xs ${subTextColor}`}>Юридическая помощь</span>
       </div>
     </Link>
   );
